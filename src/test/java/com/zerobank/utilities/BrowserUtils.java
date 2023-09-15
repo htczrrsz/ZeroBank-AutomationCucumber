@@ -1,6 +1,7 @@
 package com.zerobank.utilities;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.commons.io.FileUtils;
 import org.junit.Assert;
 import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
@@ -36,6 +37,7 @@ public class BrowserUtils {
         File finalDestination = new File(target);
         // save the screenshot to the path given
         FileUtils.copyFile(source, finalDestination);
+
         return target;
     }
 

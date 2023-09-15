@@ -9,14 +9,14 @@ import org.junit.runner.RunWith;
         features = "src/test/resources/features",
         glue = "com/zerobank/step_defs",
         plugin = {
-//                "html:target/default-cucumber-reports.html",
-//                "json:target/json-reports/cucumber.json",
-//                "junit:target/xml-report/cucumber.xml",
-//                "rerun:target/failedRerun.txt"
+                "html:target/default-cucumber-reports.html",
+                "json:target/json-reports/cucumber.json",
+                "junit:target/xml-report/cucumber.xml",
+                "rerun:target/failedRerun.txt",
                 "json:target/cucumber.json"
         },
         dryRun =false,
-        tags = "@positiveLogin"
+        tags = "@negativeLogin"
 )
 public class CukesRunner {
 
