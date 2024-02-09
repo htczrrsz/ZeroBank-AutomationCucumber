@@ -1,3 +1,4 @@
+@UI
 Feature: Account Summary Checks
 
   Background:

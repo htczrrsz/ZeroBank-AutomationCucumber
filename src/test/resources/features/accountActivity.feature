@@ -1,3 +1,4 @@
+@UI
 Feature: Account Activity Checks
 
   Background:

@@ -1,3 +1,4 @@
+@UI
 Feature: Pay Bills Checks
 
   Background:
